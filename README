@@ -1,0 +1,8 @@
+DCTrains
+========
+
+An incomplete Apple Watch app that displays next train information for a
+(currently hard-coded) list of stations.
+
+To compile, you need to create an ApiKey.swift file defining the api_key string
+with your Metro API key.

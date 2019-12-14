@@ -2,23 +2,27 @@
   "images" : [
     {
       "idiom" : "watch",
-      "scale" : "2x",
-      "screen-width" : "<=145"
+      "filename" : "Metro91@2x.png",
+      "screen-width" : "<=145",
+      "scale" : "2x"
     },
     {
       "idiom" : "watch",
-      "scale" : "2x",
-      "screen-width" : ">161"
+      "filename" : "Metro101@2x-1.png",
+      "screen-width" : ">161",
+      "scale" : "2x"
     },
     {
       "idiom" : "watch",
-      "scale" : "2x",
-      "screen-width" : ">145"
+      "filename" : "Metro101@2x.png",
+      "screen-width" : ">145",
+      "scale" : "2x"
     },
     {
       "idiom" : "watch",
-      "scale" : "2x",
-      "screen-width" : ">183"
+      "filename" : "Metro112@2x.png",
+      "screen-width" : ">183",
+      "scale" : "2x"
     }
   ],
   "info" : {

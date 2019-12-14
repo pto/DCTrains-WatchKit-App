@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		558999DA23A505A00026583A /* DCTrains WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 558999D923A505A00026583A /* DCTrains WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		558999DA23A505A00026583A /* DCTrains.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 558999D923A505A00026583A /* DCTrains.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		558999E223A505A30026583A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558999E123A505A30026583A /* Assets.xcassets */; };
 		558999E923A505A30026583A /* DCTrains WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 558999E823A505A30026583A /* DCTrains WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		558999F023A505A30026583A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558999EF23A505A30026583A /* ExtensionDelegate.swift */; };
@@ -53,7 +53,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				558999DA23A505A00026583A /* DCTrains WatchKit App.app in Embed Watch Content */,
+				558999DA23A505A00026583A /* DCTrains.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +62,7 @@
 
 /* Begin PBXFileReference section */
 		558999D523A505A00026583A /* DCTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		558999D923A505A00026583A /* DCTrains WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DCTrains WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558999D923A505A00026583A /* DCTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558999E123A505A30026583A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558999E323A505A30026583A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558999E823A505A30026583A /* DCTrains WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DCTrains WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				558999D523A505A00026583A /* DCTrains.app */,
-				558999D923A505A00026583A /* DCTrains WatchKit App.app */,
+				558999D923A505A00026583A /* DCTrains.app */,
 				558999E823A505A30026583A /* DCTrains WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -162,7 +162,7 @@
 			);
 			name = "DCTrains WatchKit App";
 			productName = "DCTrains WatchKit App";
-			productReference = 558999D923A505A00026583A /* DCTrains WatchKit App.app */;
+			productReference = 558999D923A505A00026583A /* DCTrains.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		558999E723A505A30026583A /* DCTrains WatchKit Extension */ = {
@@ -444,7 +444,7 @@
 				IBSC_MODULE = DCTrains_WatchKit_Extension;
 				INFOPLIST_FILE = "DCTrains WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = me.pto.DCTrains.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DCTrains;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +463,7 @@
 				IBSC_MODULE = DCTrains_WatchKit_Extension;
 				INFOPLIST_FILE = "DCTrains WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = me.pto.DCTrains.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DCTrains;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
